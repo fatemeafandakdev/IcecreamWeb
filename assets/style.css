@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: nice;
+  src: url(../assets/font/kingsman-font/KingsmanDemo-1GVgg.ttf);
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+li{
+  list-style: none;
+}
+ .header{
+  width: 100vw!important;
+  background: linear-gradient(rgba(21, 65, 160, 0.2),rgba(20, 57, 138, 0.1)), url("./img/background/healthy-whole-fruit-popsicles-with-berries.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .nav{
+  z-index: 122;
+ }
+ .font-nice{
+  font-family: nice;
+  font-size: 80px!important;
+  color: rgb(129, 23, 129)
+  
+;
+ }
+ .carousel {
+  background: #FAFAFA;
+}
+.carousel2 {
+  background: #FAFAFA;
+  width: 70%;
+  margin: auto;
+  background: url("./img/background/14921152_job297-ploy-06c-blue-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.carousel-cell {
+  width: 25%;
+  height: 300px;
+  margin-right: 10px;
+  background: #333;
+}
+.carousel-cell2 {
+  width: 35%;
+  height: 400px;
+  margin-right: 10px;
+ transition: all .5s;
+  margin-bottom: 20px;
+}
+
+
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+img{
+ 
+  width: 100%!important;
+  height: 100%!important;
+}
+.price{
+  width: 150px;
+  height: 150px;
+  border: 20px solid  rgb(241, 128, 190);
+  border-radius: 50%;
+  
+}
+.price img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.top-price{
+  width: 70px;
+  height: 50px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  top: -35px;
+  background-color: rgb(241, 128, 190);
+}
+.btns{
+  border: none;
+  background-color: rgb(66, 194, 226);
+  border-radius: 30px;
+}
+.holder{
+  color: rgb(16, 16, 133);
+}
+.title2{
+  color: rgb(146, 9, 9)!important;
+  font-size: 60px!important;
+}
+.btns{
+  border-radius: 30px!important;
+}
+.purple{
+  background-color: rgb(238, 74, 164);
+}
+.about-title{
+  font-family: nice;
+}
+.show-parent{
+  overflow: hidden;
+ background-color: rgb(13, 49, 41);
+ color: white;
+}
+.show{
+  transform: translateY(-100%);
+  mix-blend-mode: difference;
+  background-color: rgb(255, 255, 255);
+  transition: all .5s;
+}
+.ice-parent{
+  background-color: transparent!important;
+}
+
+.ice-child{
+ top: 60%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ border: 2px solid white;
+}
+.ice{
+  background-color: rgba(243, 39, 165, 0.4);
+  transform: translateY(100%);
+  transition: all .5s;
+}
+.ice-child{
+  width: 70%;
+  height: 60%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 3px solid white;
+}
+.btn-1{
+  background-color:transparent ;
+  border: 3px solid white;
+ 
+  transition: all .5s;
+}
+.option{
+  font-family: nice;
+}
+.teammate:hover{
+  background-color: rgb(219, 73, 122);
+  color: white;
+}
+.team{
+  background-color: rgb(243, 207, 228);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.option-hover{
+  transition: all .5s;
+  transform: scale(0);
+  transform-origin: center;
+ z-index: 100;
+ width: 95%!important;
+ margin-left: 10px!important;
+}
+.option-hover i{
+  font-size: 10rem;
+  color: white!important;
+  
+}
+.pic{
+  width: 100%!important;
+  height: 100%!important;
+  
+
+}
+
+.galery{
+  width: 100vw!important;
+}
+input{
+  border: 1px dashed purple;
+  outline: none;
+  background-color: rgb(245, 218, 223);
+}
+.teammate{
+  transition: all .5s;
+  background-color: rgb(240, 201, 207);
+  margin-bottom: 20px!important;
+}
+.open{
+  display: none;
+}
+.navbar{
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-cell{
+    width: 40%;
+  }
+  .bt{font-size: 12px!important;}
+}
+@media screen and (max-width: 768px) {
+  .carousel-cell{
+    width: 100%;
+  }
+  .carousel-cell2{
+    width: 100%;
+  }
+  .bt{font-size: 10px!important;}
+  .open{
+    display: block;
+  }
+  .nav{
+    display: none!important;
+  }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  
+}
